@@ -27,7 +27,7 @@ static const char *TAG = "websocket_client";
 
 #define WEBSOCKET_TCP_DEFAULT_PORT      (80)
 #define WEBSOCKET_SSL_DEFAULT_PORT      (443)
-#define WEBSOCKET_BUFFER_SIZE_BYTE      (1024)
+#define WEBSOCKET_BUFFER_SIZE_BYTE      (CONFIG_WS_BUFFER_SIZE)
 #define WEBSOCKET_RECONNECT_TIMEOUT_MS  (10*1000)
 #define WEBSOCKET_TASK_PRIORITY         (5)
 #define WEBSOCKET_TASK_STACK            (4*1024)
